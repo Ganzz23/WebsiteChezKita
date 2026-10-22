@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Selamat datang di Chez Kita! Tempat di mana mewahnya pastry otentik Prancis ketemu dengan kehangatan tongkrongan lokal. Enggak perlu fly ke Paris buat nikmatin Croissant premium, karena di sini semua disajiin dengan harga ramah kantong dan suasana senyaman rumah sendiri. Yuk, masuk!.">
+  <title>Chez Kita | Rasa Prancis, Vibes Rumah Kita.</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- External Stylesheet (Terpisah) -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       1. HEADER & NAVIGASI
+       ========================================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <nav class="navbar" id="main-navbar">
+        <!-- Logo Brand & Identitas Usaha -->
+        <a href="#beranda" class="brand-logo" id="brand-link">
+          <div class="brand-icon">
+            <i class="fa-solid fa-utensils"></i>
+          </div>
+          <div class="brand-text-wrap">
+            <span class="brand-name">Chez Kita!</span>
+            <span class="brand-tagline">le rendez-vous</span>
+          </div>
+        </a>
+
+        <!-- Menu Navigasi Lokal -->
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#beranda" class="nav-link active">Beranda</a></li>
+          <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+          <li><a href="#menu" class="nav-link">Menu Spesial</a></li>
+          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+          <li><a href="#kontak" class="nav-link">Kontak & Reservasi</a></li>
+        </ul>
+
+        <!-- Tombol Aksi Header -->
+        <div class="nav-actions">
+          <a href="#menu" class="btn btn-primary btn-sm" id="btn-quick-order">
+            <i class="fa-solid fa-bowl-food"></i> Pesan Sekarang
+          </a>
+          <button class="mobile-toggle" id="mobile-toggle-btn" aria-label="Buka Menu Navigasi">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       2. BAGIAN BERANDA (HERO SECTION)
+       ========================================================================== -->
+  <section class="hero-section" id="beranda">
+    <div class="container">
+      <div class="hero-grid">
+        <!-- Teks Konten Hero -->
+        <div class="hero-content">
+          <div class="hero-pill">
+            <span class="dot"></span> 100% Halal & Bahan Rempah Segar Pilihan
+          </div>
+          <h1 class="hero-title">
+            L'Expérience Culinaire Luxe  <span class="highlight">Rasa premium khusus untuk Anda.</span>
+          </h1>
+          <p class="hero-description">
+            Selamat datang di Chez Kita! Tempat di mana mewahnya pastry otentik Prancis ketemu dengan kehangatan tongkrongan lokal. Enggak perlu fly ke Paris buat nikmatin Croissant premium, karena di sini semua disajiin dengan harga ramah kantong dan suasana senyaman rumah sendiri. Yuk, masuk!
+          </p>
+          <div class="hero-cta-group">
+            <a href="#menu" class="btn btn-primary" id="btn-explore-menu">
+              <i class="fa-solid fa-utensils"></i> Jelajahi Menu
+            </a>
+            <a href="#kontak" class="btn btn-secondary" id="btn-reserve-table">
+              <i class="fa-regular fa-calendar-check"></i> Reservasi Meja
+            </a>
+          </div>
+          <!-- Keunggulan Singkat Hero -->
+          <div class="hero-badges-row">
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-certificate"></i>
+              <span>100% Halal</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-leaf"></i>
+              <span>Bahan Segar Alami</span>
+            </div>
+            <div class="hero-feature-item">
+              <i class="fa-solid fa-fire-burner"></i>
+              <span>Dimasak Fresh Setiap Hari</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Gambar Hero & Floating Badge -->
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="images/hero.jpg" alt="Sajian Kuliner Spesial Dapur Rasa Nusantara" id="hero-img">
+            
+            <!-- Floating Badge Kiri Atas -->
+            <div class="floating-badge badge-top-left">
+              <div class="floating-icon">
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Rating 4.9/5.0</strong>
+                <span>Dari 2.500+ Pelanggan</span>
+              </div>
+            </div>
+
+            <!-- Floating Badge Kanan Bawah -->
+            <div class="floating-badge badge-bottom-right">
+              <div class="floating-icon">
+                <i class="fa-solid fa-heart"></i>
+              </div>
+              <div class="floating-text">
+                <strong>Resep Autentik</strong>
+                <span>Warisan Sejak 2018</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. BAGIAN TENTANG KAMI (ABOUT SECTION)
+       ========================================================================== -->
+  <section class="about-section section-padding" id="tentang">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Kolom Gambar Tentang Kami -->
+        <div class="about-image-col">
+          <div class="about-image-card">
+            <img src="images/hero.jpg" alt="Suasana dan Hidangan Dapur Rasa Nusantara" id="about-img">
+            <div class="experience-tag">
+              <div class="exp-number">8+</div>
+              <div class="exp-text">Tahun Melayani</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Kolom Deskripsi Usaha -->
+        <div class="about-content-col">
+          <div class="section-badge">
+            <i class="fa-solid fa-kitchen-set"></i> Cerita Kami
+          </div>
+          <h2 class="section-title">Dari Prancis, Untuk Kita.</h2>
+          <p class="about-lead">
+          Chez Kita (baca: Sye Kita) lahir dari ide simpel: pengen bawa vibes kafe estetik ala Paris, tapi tetep berasa ramah kayak tongkrongan sendiri. Kata Chez dalam bahasa Prancis artinya "di rumah"—dan lewat tempat ini, kami pengen jadi rumah kedua buat kamu.
+          </p>
+          <p class="about-text">
+           Di sini, teknik baking klasik Prancis berkolaborasi dengan cita rasa lokal yang akrab di lidah. Mulai dari pusing mikirin tugas kuliah, butuh tempat WFC yang tenang, sampai sekadar pengen deep talk bareng bestie sambil ngopi dan makan croissant hangat—c'est ici, di sini tempatnya.
+          </p>
+          <p class="about-text">
+           Yuk, rehat sejenak dan bikin cerita baru bareng kami!
+          </p>
+
+          <!-- 4 Pilar Keunggulan -->
+          <div class="about-pillars">
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-seedling"></i></div>
+              <div>
+                <h4>Des Épices</h4>
+                <p>Sentuhan rempah nusantara yang bikin menu Prancis jadi lebih akrab.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h4>Tout Propre</h4>
+                <p>Semuanya serba bersih dan rapi dari dapur sampai meja nongkrongmu.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-users"></i></div>
+              <div>
+                <h4>Our Flavor Master</h4>
+                <p>Koki berpengalaman yang bikin menu klasik Prancis ramah di lidah kita.</p>
+              </div>
+            </div>
+            <div class="pillar-item">
+              <div class="pillar-icon"><i class="fa-solid fa-wallet"></i></div>
+              <div>
+                <h4>Affordable Luxury</h4>
+                <p>Nikmatin mewahnya croissant dan kopi estetik dengan harga teman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Banner Angka / Statistik Prestasi -->
+      <div class="stats-banner">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Varian Menu Spesial</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">50.000+</div>
+            <div class="stat-label">Porsi Terhidang</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">4.9/5</div>
+            <div class="stat-label">Rating Kepuasan</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number">100%</div>
+            <div class="stat-label">Bahan Baku Halal</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. BAGIAN MENU MAKANAN & MINUMAN (MINIMAL 6 PRODUK LOKAL)
+       ========================================================================== -->
+  <section class="menu-section section-padding" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-book-open"></i> Pilihan Terbaik
+        </div>
+        <h2 class="section-title">Les Spécialités de ChezKita</h2>
+        <p class="section-subtitle">
+         Simfoni rasa istimewa yang memanjakan indra, menyajikan kemewahan rasa Prancis dalam kehangatan lokal.
+        </p>
+      </div>
+
+      <!-- Menu Category Filter Tabs -->
+      <div class="menu-filter-bar">
+        <button class="filter-btn active" data-filter="all">
+          <i class="fa-solid fa-border-all"></i> Semua Menu
+        </button>
+        <button class="filter-btn" data-filter="makanan">
+          <i class="fa-solid fa-bowl-rice"></i> Makanan Utama
+        </button>
+        <button class="filter-btn" data-filter="minuman">
+          <i class="fa-solid fa-mug-hot"></i> Minuman Segar
+        </button>
+      </div>
+
+      <!-- CSS GRID: Menampilkan 8 Produk Makanan & Minuman Lengkap -->
+      <div class="menu-grid" id="menu-product-grid">
+
+        <!-- Produk 1: Ayam Geprek Sambal Bawang -->
+        <article class="menu-card" data-category="makanan" id="product-1">
+          <div class="card-media">
+            <img src="images/Croissant.jpg" alt="Croissant au Beurre" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+              <span class="badge-tag badge-bestseller">Best Seller</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 5.0
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Croissant au Beurre</h3>
+            <p class="product-desc">
+Kemewahan autentik dalam setiap lapisan. Croissant au Beurre premium kami memadukan 100% pure butter berkualitas tinggi dengan teknik pelipatan tradisional Prancis. Menghasilkan aroma wangi mentega yang megah, tekstur flaky yang memikat, dan cita rasa gurih yang elegan.
+
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 25.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Croissant au Beurre', 25000, 'images/Croissant.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 2: Rendang Daging Minang -->
+        <article class="menu-card" data-category="makanan" id="product-2">
+          <div class="card-media">
+            <img src="images/Choco.jpg" alt="Pain au Chocolat" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.7
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Pain au Chocolat</h3>
+            <p class="product-desc">
+             Sebuah mahakarya viennoiserie klasik Prancis. Lembaran adonan bermentega yang dipanggang presisi hingga keemasan, mendekap keinteman dark chocolate artisan yang meleleh dengan anggun di setiap gigitan.
+
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 38.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Pain au Chocolat', 38000, 'images/Choco.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 3: Sate Ayam Madura -->
+        <article class="menu-card" data-category="makanan" id="product-3">
+          <div class="card-media">
+            <img src="images/Quiche.jpg" alt="Quiche Lorraine" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.8
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Quiche Lorraine</h3>
+            <p class="product-desc">
+             Tart gurih klasik khas Prancis dengan kulit pastry yang renyah dan mentega, diisi custard telur yang lembut dan berlimpah (creamy), berpadu sempurna dengan potongan daging asap (smoke beef/bacon) yang gurih dan aroma pala yang khas.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 28.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Quiche Lorraine', 28000, 'images/Quiche.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 4: Nasi Goreng Spesial Nusantara -->
+        <article class="menu-card" data-category="makanan" id="product-4">
+          <div class="card-media">
+            <img src="images/Coq.jpg" alt="Coq au Vin" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.8
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Coq au Vin</h3>
+            <p class="product-desc">
+             Paha ayam pilihan yang dimasak perlahan (slow-braised) dalam dekadensi saus red wine Burgundy otentik, berpadu harmonis dengan gurihnya lardon asap, kelembutan jamur liar, dan manisnya bawang mutiara yang terkaramelisasi dengan sempurna.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 27.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Coq au Vin', 27000, 'images/Coq.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 5: Soto Betawi Kuah Susu Gurih -->
+        <article class="menu-card" data-category="makanan" id="product-5">
+          <div class="card-media">
+            <img src="images/Sole.jpg" alt="Soto Betawi Kuah Susu Gurih" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan
+                
+              </span>
+
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.9
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Sole meunière </h3>
+            <p class="product-desc">
+             Mahakarya kuliner klasik Prancis yang memadukan kelembutan premium ikan Dover Sole berbalut kulit renyah keemasan. Dimandikan dalam kehangatan saus beurre noisette aroma nutty yang kaya, serta disempurnakan oleh segarnya kilatan jeruk lemon dan taburan peterseli segar. Sebuah simfoni rasa yang timeless dan mewah.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 35.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Sole meunière ', 35000, 'images/sole.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 6: Gado-Gado Siram Spesial -->
+        <article class="menu-card" data-category="makanan" id="product-6">
+          <div class="card-media">
+            <img src="images/Turbot.jpg" alt="Turbot au beurre blanc" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Makanan</span>
+
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.7
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Turbot au beurre blanc</h3>
+            <p class="product-desc">
+          Mahakarya kuliner Prancis: kelembutan daging ikan Turbot mewah yang meleleh di mulut, disempurnakan oleh emulsi saus mentega velvety yang kaya rasa.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 24.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Turbot au beurre blanc', 24000, 'images/turbot.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 7: Es Cendol Dawet Gula Aren -->
+        <article class="menu-card" data-category="minuman" id="product-7">
+          <div class="card-media">
+            <img src="images/Cafe.jpg" alt="Café au lait" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Minuman</span>
+              <span class="badge-tag badge-bestseller">Best Drink</span>
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.9
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Café au lait</h3>
+            <p class="product-desc">
+           Sebuah simfoni fajar dari jantung kota Paris. Kami mengawinkan esensi kopi artisan berkarakter pekat dengan beludru susu emulsi (velvety steamed milk) dalam rasio emas yang presisi. Menghasilkan cita rasa yang megah, halus, dan meninggalkan impresi mewah yang mendalam pada palatabilitas Anda.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 15.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Café au lait', 15000, 'images/Cafe.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Produk 8: Es Teh Manis Melati Jumbo -->
+        <article class="menu-card" data-category="minuman" id="product-8">
+          <div class="card-media">
+            <img src="images/Coklat.jpg" alt="Chocolat Chaud L'Ancienne" loading="lazy">
+            <div class="card-badge-top">
+              <span class="badge-tag badge-category">Minuman</span>
+
+            </div>
+            <div class="card-rating">
+              <i class="fa-solid fa-star"></i> 4.8
+            </div>
+          </div>
+          <div class="card-body">
+            <h3 class="product-title">Chocolat Chaud L'Ancienne</h3>
+            <p class="product-desc">
+              Kemewahan klasik dalam setiap sesapan. Cokelat batangan premium yang dilelehkan sempurna bersama susu dan krim, menghadirkan tekstur sehalus sutra yang kaya dan mendalam.
+            </p>
+            <div class="card-footer">
+              <div class="price-wrap">
+                <span class="price-label">Harga</span>
+                <span class="product-price">Rp 8.000</span>
+              </div>
+              <button class="btn-order-item" title="Pesan Menu Ini" onclick="openOrderModal('Chocolat Chaud L Ancienne',8000,'images/Coklat.jpg')">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. BAGIAN KEUNGGULAN (FEATURES SECTION)
+       ========================================================================== -->
+  <section class="features-section section-padding" id="keunggulan">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-award"></i> Komitmen Kami
+        </div>
+        <h2 class="section-title">Mengapa Memilih ChezKita?</h2>
+        <p class="section-subtitle">
+          Kenyamanan Anda dan kualitas cita rasa makanan adalah prioritas tertinggi yang kami pegang teguh setiap hari.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-pepper-hot"></i>
+          </div>
+          <h3 class="feature-title">Rempah Murni Pilihan</h3>
+          <p class="feature-text">
+            Bumbu diracik segar dari rempah-rempah alami terbaik tanpa penyedap berlebih atau bahan kimia berbahaya.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-hand-sparkles"></i>
+          </div>
+          <h3 class="feature-title">Kebersihan Standar Tinggi</h3>
+          <p class="feature-text">
+            Seluruh proses pengolahan bahan hingga penyajian di meja tamu selalu mematuhi protokol higienitas ketat.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-truck-fast"></i>
+          </div>
+          <h3 class="feature-title">Penyajian Cepat & Hangat</h3>
+          <p class="feature-text">
+            Didukung manajemen dapur yang gesit sehingga pesanan Anda tiba di meja dengan hangat dan dalam waktu singkat.
+          </p>
+        </div>
+
+        <div class="feature-box">
+          <div class="feature-icon-circle">
+            <i class="fa-solid fa-heart-circle-check"></i>
+          </div>
+          <h3 class="feature-title">Pelayanan Ramah Kekeluargaan</h3>
+          <p class="feature-text">
+            Staf kami yang ramah siap melayani kebutuhan makan bersama keluarga, teman kerja, hingga acara arisan dan reuni.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. BAGIAN KONTAK & RESERVASI (CONTACT SECTION)
+       ========================================================================== -->
+  <section class="contact-section section-padding" id="kontak">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <i class="fa-solid fa-envelope-open-text"></i> Hubungi Kami
+        </div>
+        <h2 class="section-title">Reservasi Meja & Layanan Kontak</h2>
+        <p class="section-subtitle">
+          Ingin memesan tempat terlebih dahulu, memesan katering, atau memiliki pertanyaan? Hubungi kami langsung atau isi formulir di bawah ini.
+        </p>
+      </div>
+
+      <div class="contact-layout">
+        <!-- Informasi Usaha & Lokasi -->
+        <div class="contact-info-col">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Alamat Restoran</h4>
+              <p>Jl. Kuliner Rempah No. 88, Kebayoran Baru, Jakarta Selatan, DKI Jakarta 12160</p>
+              <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer">Buka di Google Maps <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-clock"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Jam Operasional</h4>
+              <p>Senin – Jumat: 10.00 – 22.00 WIB</p>
+              <p>Sabtu – Minggu: 09.00 – 23.00 WIB</p>
+              <span style="color: var(--accent-green); font-size: 0.85rem; font-weight: 700;">
+                <i class="fa-solid fa-circle-check"></i> Buka Setiap Hari
+              </span>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <div class="contact-details">
+              <h4>Telepon & WhatsApp</h4>
+              <p>Layanan Cepat & Informasi: <br>
+                <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">+62 812-3456-7890</a>
+              </p>
+              <p>Email: <a href="mailto:halo@chezkita.id">halo@chezkita.id</a></p>
+            </div>
+          </div>
+
+          <!-- Media Sosial -->
+          <div class="contact-card" style="flex-direction: column; gap: 0.8rem;">
+            <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--dark-color);">Ikuti Media Sosial Kami</h4>
+            <p style="font-size: 0.9rem; color: var(--text-secondary);">Dapatkan update promo menu dan resep menarik setiap minggunya:</p>
+            <div class="social-links">
+              <a href="#kontak" class="social-btn" title="Instagram ChezKita!"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#kontak" class="social-btn" title="TikTok ChezKita!"><i class="fa-brands fa-tiktok"></i></a>
+              <a href="#kontak" class="social-btn" title="Facebook ChezKita!"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="https://wa.me/6281234567890" class="social-btn" title="WhatsApp Langsung"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Formulir Pemesanan & Reservasi -->
+        <div class="reservation-card" id="form-container">
+          <h3>Formulir Reservasi Meja</h3>
+          <p>Isi formulir berikut dan tim kami akan segera mengonfirmasi pesanan meja Anda dalam waktu maksimal 15 menit.</p>
+
+          <form id="reservation-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="res-name" class="form-label">Nama Lengkap *</label>
+                <input type="text" id="res-name" name="name" placeholder="Contoh: Budi Santoso" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-phone" class="form-label">Nomor WhatsApp *</label>
+                <input type="tel" id="res-phone" name="phone" placeholder="08123456789" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-date" class="form-label">Tanggal Kunjungan *</label>
+                <input type="date" id="res-date" name="date" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-time" class="form-label">Waktu Kedatangan *</label>
+                <input type="time" id="res-time" name="time" required>
+              </div>
+
+              <div class="form-group">
+                <label for="res-guests" class="form-label">Jumlah Orang *</label>
+                <select id="res-guests" name="guests" required>
+                  <option value="" disabled selected>Pilih Jumlah Tamu</option>
+                  <option value="1-2">1 - 2 Orang</option>
+                  <option value="3-5">3 - 5 Orang (Keluarga Kecil)</option>
+                  <option value="6-10">6 - 10 Orang (Rombongan)</option>
+                  <option value="10+">Lebih dari 10 Orang (Acara/Arisan)</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="res-menu-pick" class="form-label">Menu Pilihan Favorit</label>
+                <select id="res-menu-pick" name="menu_pick">
+                  <option value="Belum Memilih">Pilih Nanti di Resto</option>
+                  <option value="Croissant au Beurre">Croissant au Beurre</option>
+                  <option value="Pain au Chocolat">Pain au Chocolat</option>
+                  <option value="SQuiche Lorraine">Quiche Lorraine</option>
+                  <option value="Coq au Vin">Coq au Vin</option>
+                  <option value="Sole meunière">Sole meunière</option>
+                  <option value="Turbot au beurre blanc">Turbot au beurre blanc</option>
+                </select>
+              </div>
+
+              <div class="form-group full-width">
+                <label for="res-notes" class="form-label">Catatan Tambahan (Opsional)</label>
+                <textarea id="res-notes" name="notes" placeholder="Contoh: Meja dekat jendela, perayaan ulang tahun, atau request tingkat kepedasan..."></textarea>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-primary form-submit-btn" id="btn-submit-reservation">
+              <i class="fa-solid fa-paper-plane"></i> Kirim Konfirmasi Reservasi
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. BAGIAN FOOTER
+       ========================================================================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Kolom 1: Profil Usaha -->
+        <div class="footer-col">
+          <div class="brand-logo" style="margin-bottom: 1.2rem;">
+            <div class="brand-icon">
+              <i class="fa-solid fa-utensils"></i>
+            </div>
+            <div class="brand-text-wrap">
+              <span class="brand-name" style="color: #ffffff;">ChezKita!</span>
+              <span class="brand-tagline">le rendez-vous</span>
+            </div>
+          </div>
+          <p>
+            Rumah makan berkonsep bistro tradisional yang berdedikasi menyajikan aneka mahakarya kuliner nusantara dengan bahan-bahan rempah alami berkualitas tinggi, higienis, dan terjangkau.
+          </p>
+          <div class="social-links" style="margin-top: 1.2rem;">
+            <a href="#beranda" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#beranda" class="social-btn" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#beranda" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://wa.me/6281234567890" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Navigasi Cepat -->
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <nav class="footer-nav">
+            <a href="#beranda"><i class="fa-solid fa-angle-right"></i> Beranda</a>
+            <a href="#tentang"><i class="fa-solid fa-angle-right"></i> Tentang Kami</a>
+            <a href="#menu"><i class="fa-solid fa-angle-right"></i> Menu Spesial</a>
+            <a href="#keunggulan"><i class="fa-solid fa-angle-right"></i> Keunggulan Resto</a>
+            <a href="#kontak"><i class="fa-solid fa-angle-right"></i> Kontak & Reservasi</a>
+          </nav>
+        </div>
+
+        <!-- Kolom 3: Jam Layanan -->
+        <div class="footer-col">
+          <h4>Jam Layanan</h4>
+          <div class="opening-hours-card">
+            <div class="day">Senin - Jumat</div>
+            <div class="time">10.00 - 22.00 WIB</div>
+            <hr style="margin: 0.8rem 0; border: none; border-top: 1px dashed rgba(255,255,255,0.15);">
+            <div class="day">Sabtu - Minggu</div>
+            <div class="time">09.00 - 23.00 WIB</div>
+          </div>
+          <p style="margin-top: 1rem; font-size: 0.82rem; color: #a89488;">
+            * Layanan pesan antar dan reservasi tempat tetap dilayani saat hari libur nasional.
+          </p>
+        </div>
+
+        <!-- Kolom 4: Kontak Cepat -->
+        <div class="footer-col">
+          <h4>Hubungi Kami</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Jl. Kuliner Rempah No. 88, Kebayoran Baru, Jakarta Selatan</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <span>+62 812-3456-7890</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope"></i>
+              <span>halo@dapurrasanusantara.id</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Bar Hak Cipta -->
+      <div class="footer-bottom">
+        <div>
+          &copy; 2026 <strong>ChezKita!</strong>. Hak Cipta Dilindungi Undang-Undang.
+        </div>
+        <div>
+           Rasa Nusantara & Sentuhan Prancis 
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       8. MODAL INTERAKTIF PEMESANAN MENU (ORDER POPUP)
+       ========================================================================== -->
+  <div class="modal-overlay" id="orderModal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="modalCloseBtn" onclick="closeOrderModal()" aria-label="Tutup Jendela Modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <h3 style="font-size: 1.35rem; font-weight: 800; color: var(--dark-color); margin-bottom: 0.3rem;">
+        Konfirmasi Pesanan Menu
+      </h3>
+      <p style="font-size: 0.88rem; color: var(--text-secondary);">
+        Silakan tentukan jumlah porsi yang ingin Anda pesan:
+      </p>
+
+      <div class="modal-product-preview">
+        <img src="images/hero.jpg" alt="Preview Menu" id="modalProductImg" class="modal-product-img">
+        <div>
+          <h4 id="modalProductName" style="font-size: 1.05rem; font-weight: 700; color: var(--dark-color);">Nama Menu</h4>
+          <span id="modalProductPrice" style="font-size: 1.1rem; font-weight: 800; color: var(--primary-color);">Rp 0</span>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin: 1.2rem 0;">
+        <span style="font-weight: 600; font-size: 0.95rem; color: var(--dark-color);">Jumlah Porsi:</span>
+        <div class="modal-qty-control">
+          <button class="qty-btn" type="button" onclick="changeModalQty(-1)">-</button>
+          <input type="text" id="modalQtyInput" class="qty-input" value="1" readonly>
+          <button class="qty-btn" type="button" onclick="changeModalQty(1)">+</button>
+        </div>
+      </div>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; border-top: 1px dashed var(--border-color); margin-bottom: 1.2rem;">
+        <span style="font-weight: 700; color: var(--dark-color);">Total Pembayaran:</span>
+        <span id="modalTotalPrice" style="font-size: 1.3rem; font-weight: 800; color: var(--primary-color);">Rp 0</span>
+      </div>
+
+      <div style="display: flex; gap: 0.8rem; flex-direction: column;">
+        <button type="button" class="btn btn-whatsapp" id="btn-confirm-wa" onclick="sendOrderViaWhatsApp()">
+          <i class="fa-brands fa-whatsapp"></i> Pesan Langsung via WhatsApp
+        </button>
+        <button type="button" class="btn btn-secondary" onclick="closeOrderModal()">
+          Batal & Kembali ke Menu
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast -->
+  <div class="toast-msg" id="toastMsg">
+    <i class="fa-solid fa-circle-check" style="color: #2b8a3e; font-size: 1.3rem;"></i>
+    <span id="toastText">Pemberitahuan</span>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
